@@ -1,0 +1,72 @@
+/* Goals.css */
+
+.goals-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  color:#097972,
+
+  }
+  
+  .goals-heading {
+    text-align: center;
+    
+  }
+  
+  .goal-form {
+    margin-bottom: 20px;
+  }
+  
+  .add-goal-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .goal-input,
+  .days-input,
+  .deadline-input,
+  .priority-input,
+  .description-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-button {
+    padding: 10px 20px;
+    background-color: #097972;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #065a5a;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    margin-top: 5px;
+  }
+  
+  .goal-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .goal-item {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .goal-item span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  

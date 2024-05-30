@@ -1,0 +1,92 @@
+/* CalorieTracker.css */
+.calorie-tracker-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+   
+  }
+  
+  .calorie-tracker-container h1 {
+    text-align: center;
+    color: #097972;
+  }
+  
+  .calorie-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .calorie-form label {
+    margin-bottom: 5px;
+   color:#097972 ; 
+
+  }
+  
+  .calorie-form input[type="text"],
+  .calorie-form input[type="number"],
+  .calorie-form input[type="time"],
+  .calorie-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .calorie-form input[type="text"],
+  .calorie-form input[type="number"],
+  .calorie-form input[type="time"] {
+    margin-bottom: 10px;
+  }
+  
+  .calorie-form button {
+    background-color: #065a5a;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .calorie-form button:hover {
+    background-color:#087373;
+  }
+  
+  .calorie-list {
+    list-style-type: none;
+    padding: 0;
+   color:#097972 ; 
+
+  }
+  
+  .calorie-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-right: 10px;
+  }
+  
+  .calorie-list li:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .entry-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px; /* Adjusted margin for more space */
+  }
+  
+  .entry-details span {
+    font-size: 14px;
+  }
+  
+  .total-calories {
+    font-weight: bold;
+    text-align: right;
+    color:#097972 ;
+  }
+  

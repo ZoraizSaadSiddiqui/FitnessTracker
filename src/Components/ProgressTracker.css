@@ -1,0 +1,59 @@
+/* ProgressTracker.css */
+
+.progress-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .progress-container h1 {
+    text-align: center;
+    color:#097972;
+    margin-bottom: 50px;
+  }
+  
+  .progress-report {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    color: #ccc;
+    grid-gap: 20px;
+  }
+  
+  .report-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+   
+  }
+  
+  .report-item:nth-child(1) {
+    background-image: url('C:\Users\sohail laptops store\OneDrive\Pictures\360_F_224515382_RdooMfTyGSLFU0C3Pfk2rbjVqUy1UrZl.jpg');
+  }
+  
+  .report-item:nth-child(2) {
+    background-image: url('C:\Users\sohail laptops store\OneDrive\Pictures\360_F_224515382_RdooMfTyGSLFU0C3Pfk2rbjVqUy1UrZl.jpg');
+  }
+  
+  .report-item:nth-child(3) {
+    background-image: url('C:\Users\sohail laptops store\OneDrive\Pictures\360_F_224515382_RdooMfTyGSLFU0C3Pfk2rbjVqUy1UrZl.jpg');
+       
+}  .report-item:nth-child(4) {
+    background-image: url('C:\Users\sohail laptops store\OneDrive\Pictures\360_F_224515382_RdooMfTyGSLFU0C3Pfk2rbjVqUy1UrZl.jpg');
+       
+}
+  
+  .report-content {
+    padding: 20px;
+  }
+  
+  .report-content h2 {
+    margin-bottom: 10px;
+    color:#097972;
+  }
+  
+  .report-content p {
+    color: #e9e0e0;
+  }
+  
